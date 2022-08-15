@@ -1,38 +1,24 @@
-var count = 9;
-var likeElement = document.querySelector('#post-1');
+var count1 = 9;
+var likeElement1 = document.querySelector('#post-1');
 
-function like(){
-    count ++;
-    likeElement.innerText = count + ' like(s)';
+function like1(){
+    count1 ++;
+    likeElement1.innerText = count1 + ' like(s)';
 }
 
+var count2 = 12;
+var likeElement2 = document.querySelector('#post-2');
 
-var count = 12;
-var likeElement = document.querySelector('#post-2');
-
-function like(){
-    count ++;
-    likeElement.innerText = count + ' like(s)';
+function like2(){
+    count2 ++;
+    likeElement2.innerText = count2 + ' like(s)';
 }
 
-var count = 9;
-var likeElement = document.querySelector('#post-3');
+var count3 = 9;
+var likeElement3 = document.querySelector('#post-3');
 
-function like(){
-    count ++;
-    likeElement.innerText = count + ' like(s)';
+function like3(){
+    count3 ++;
+    likeElement3.innerText = count3 + ' like(s)';
 }
 
-
-// var likes = [9, 12, 9];
-// var spans = [
-//     document.querySelector("#post-1"),
-//     document.querySelector("#post-2"),
-//     document.querySelector("#post-3")
-// ];
-
-// function like(id) {
-//     likes[id]++;
-//     spans[id].innerHTML = likes[id] + " like (s)";
-//     console.log(like)
-// }
